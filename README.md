@@ -23,11 +23,10 @@
 
 		.container-fluid {
 			  background-color: black;
+			  padding: 10px;
 			}
 
 		.container-fluid a {
-			  float: left;
-			  display: block;
 			  text-align: center;
 			  padding: 14px 16px;
 			  font-size: 14px;
@@ -37,7 +36,6 @@
 		  float: left;
 		  padding-top: 15px;
 		  padding-left: 5px;
-		  border-radius: 4px;
 		  background-color: black;
 		}
 
@@ -58,14 +56,10 @@
 
 		.subnav a {
 		  float: left;
-		  display: block;
-		  color: black;
 		  text-align: center;
 		  padding: 14px 16px;
-		  text-decoration: none;
 		  font-size: 14px;
-		  border-bottom: 3px solid transparent;
-		  margin-top: 50px;
+		  margin-top: 100px;
 		}
 
 		.subnav a:hover {
@@ -75,7 +69,7 @@
 		.subnav a.active {
 		  border-bottom: 2px solid red;
 		}
-	</style>-->
+	</style>
 </head>
 
 <body style="background-color: white;">
