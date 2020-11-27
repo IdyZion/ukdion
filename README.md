@@ -21,66 +21,32 @@
 
 	<style>
 
-		div{
-			border-radius: 5px;
-		}
-		.image-small{
-			width: 25px;
-		}
-		.img-margin{
-			margin: auto;
-		}
-
-		* {box-sizing: border-box;}
-
 		.container-fluid {
-			  overflow: hidden;
 			  background-color: black;
 			}
 
 		.container-fluid a {
 			  float: left;
 			  display: block;
-			  color: white;
 			  text-align: center;
 			  padding: 14px 16px;
-			  text-decoration: none;
 			  font-size: 14px;
 			}
 
-		.container-fluid a.hover {
-		  background-color: black;
-		  color: grey;
-		}
-
 		.container-fluid .search-container {
 		  float: left;
+		  padding-top: 15px;
+		  padding-left: 5px;
+		  border-radius: 4px;
+		  background-color: black;
 		}
 
-		.container-fluid .search-container button {
-		  float: right;
-		  padding: 6px 10px;
-		  margin-top: 10px;
-		  margin-right: 16px;
-		  background: black;
-		  font-size: 14px;
-		  border: none;
-		  cursor: pointer;
-		}
 
-		@media screen and (max-width: 600px) {
+		max-width: 600px {
 		  .container-fluid .search-container {
 		    float: none;
 		  }
-		  .container-fluid a, .container-fluid input[type=text], .container-fluid .search-container button {
-		    float: none;
-		    display: block;
-		    text-align: left;
-		    width: 100%;
-		    margin: 0;
-		    padding: 14px;
-		    background-color: black;
-		  }
+		 
 	</style>
 
 	<style>
