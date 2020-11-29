@@ -77,18 +77,20 @@
 	  	<div class="container-fluid">
 
 	    	<div class="navbar-header">
-	      		<button type="button" class="btn btn-default btn-sm">
+	      		<button style="background-color: black;">
 	      			<img src="images/logo.jpg">
 	      		</button>
 	      	</div>
 
-	      	<div class="search-container" id="idNavbar">
-			    <form action="/action_page.php">
-			      <input type="text" placeholder="Search or jump to..." name="search">
+	      	<div class="search-container">
+			    <form action="/action_page.php" style="background-color: black;">
+			      <input type="text" class="search-query offset1" placeholder="Search or jump to..." name="search">
 			      <button type="submit"><i>/</i></button>
 			    </form>
 			</div>
-			<div class="collapse navbar-collapse" id="idNavbar">
+
+	      
+	      	<div class="collapse navbar-collapse">
 	      		<ul class="nav navbar-nav">
 	       			<li>
 	        			<a href="#">
@@ -171,18 +173,44 @@
 			</div>
 
 			<div>
-				<p style="border-top: 200px; font-size: 14px;">Popular repositories</p>
+				<div>
+					<p style="font-size: 14px;">Popular repositories
+					<a href="#"><p style=" text-align: right; font-size: 14px; color: black; padding-right: 100px;">Customize your pins</p></a>
+					</p>
+				</div>
+
+				<div class="col-md-5">
+					<div class="panel panel-default" style="width: 100%; height: 50%;">
+					    <div class="panel-body">
+					    	<a href="#" style="text-decoration: underline; color: blue;">hello-world</a><br>
+					    	<p>first time</p>
+					    </div>
+					</div>
+				</div>
+
+				<div class="col-md-5">
+					<div class="panel panel-default" style="width: 100%; height: 50%;">
+					    <div class="panel-body">
+					    	<a href="#" style="text-decoration: underline; color: blue;">ukdion</a><br>
+					    	<p>test</p>
+					    </div>
+					</div>
+				</div>
+
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<div>
 				<p style="border-top: 400px; text-align: center; font-size: 20px;"><b>You don’t have any public repositories yet.</b></p>
-				<p style="border-top: 600px; font-size: 14px;">1 contribution in the last year 
+				<!--<p style="border-top: 600px; font-size: 14px;">1 contribution in the last year 
 					<a href="#" style="color: black; text-align: right;">Contribution settings</a>
 					<span class="caret" style="color: black;"></span>
-				</p>
+				</p>-->
+			</div>
 			</div>
 
 			<div>
 				<p style="font-size: 20px; text-align: center;">Choose an ecosystem</p>
 			</div>
-			<div class="row">
+			<div class="row" style="background-color: white;">
 				<div class="col-md-4 col-xs-12">
 					<div class="box-content card" style="padding: 10px; padding-left: 30px; padding-right: 40px; border-radius: 5px;">
 						<h5><i class="fa ico"><img src="images/docker.png"></i> <b style="font-size: 20px;">Docker</b></h5>
@@ -232,7 +260,7 @@
 
 
 
-	<hr style="width:90%; background-color: white;">
+	<hr style="width:90%;">
 
 	<div class="footer" style="background-color: white;">
 		
