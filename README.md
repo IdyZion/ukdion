@@ -255,6 +255,11 @@
 						<button type="button" class="btn btn-default btn-sm" style="border-radius: 4px;">Learn More</button><br><br>
 					</div>
 				</div>
+				<div class="panel panel-default" style="width: 100%; height: 50%;">
+					<div class="panel-body">
+						<a href="#">https://github.githubassets.com/images/modules/profile/profile-joined-github.svg</a>
+					</div>
+				</div>
 			</div>
 		</div>	
 
