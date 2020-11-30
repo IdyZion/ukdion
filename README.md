@@ -78,7 +78,7 @@
 
 	    	<div class="navbar-header">
 	      		<button style="background-color: black;">
-	      			<img src="images/logo.jpg">
+	      			<img src="logo.jpg">
 	      		</button>
 	      	</div>
 
@@ -135,7 +135,7 @@
 	        		</li>
 	        		
 	        		<li style="padding: 10px;">
-	        			<img src="images/avatar.png" class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" width="28" height="28" style="border-radius: 13px;" >
+	        			<img src="avatar.png" class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" width="28" height="28" style="border-radius: 13px;" >
 	        			<span class="caret" style="color: white;"></span>
 	        		</li>
 			        
@@ -156,7 +156,7 @@
 		<div class="col-md-3">
 			<div class="card" style= "border: 3px; padding: 30px; align-content: center;">
 				    <p>
-				    	<img class="img-circle card-img-top" src="images/avatar.png" alt="Card image" style= "align-content: center;">
+				    	<img class="img-circle card-img-top" src="avatar.png" alt="Card image" style= "align-content: center;">
 				    </p>
 				    <div class="card-body">
 					    <p class="card-title" style="font-size: 20px;">IdyZion</p>
@@ -213,21 +213,21 @@
 			<div class="row" style="background-color: white;">
 				<div class="col-md-4 col-xs-12">
 					<div class="box-content card" style="padding: 10px; padding-left: 30px; padding-right: 40px; border-radius: 5px;">
-						<h5><i class="fa ico"><img src="images/docker.png"></i> <b style="font-size: 20px;">Docker</b></h5>
+						<h5><i class="fa ico"><img src="docker.png"></i> <b style="font-size: 20px;">Docker</b></h5>
 						<p style="font-size: 12px;">A software platform used for building applications based on containers — small and lightweight execution environments.</p>
 						<button type="button" class="btn btn-default btn-sm" style="border-radius: 4px;">Learn More</button><br><br>
 					</div>					
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<div class="box-content card" style="padding: 10px; padding-left: 30px; padding-right: 40px; border-radius: 5px;">
-						<h5><i class="fa ico"><img src="images/apache.png"></i> <b style="font-size: 20px;">Apache Maven</b></h5>
+						<h5><i class="fa ico"><img src="apache.png"></i> <b style="font-size: 20px;">Apache Maven</b></h5>
 						<p style="font-size: 12px;">A default package manager used for the Java programming language and the Java runtime environment.</p>
 						<button type="button" class="btn btn-default btn-sm" style="border-radius: 4px;">Learn More</button><br><br>
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<div class="box-content card" style="padding: 10px; padding-left: 30px; padding-right: 40px; border-radius: 5px;">
-						<h5><i class="fa ico"><img src="images/nuget.jpg"></i> <b style="font-size: 20px;">NuGet</b></h5>
+						<h5><i class="fa ico"><img src="nuget.jpg"></i> <b style="font-size: 20px;">NuGet</b></h5>
 						<p style="font-size: 12px;">A free and open source package manager used for the Microsoft development platforms including .NET.</p>
 						<button type="button" class="btn btn-default btn-sm" style="border-radius: 4px;">Learn More</button><br><br>
 					</div>
@@ -236,21 +236,21 @@
 			<div class="row" style="background-color: white;">
 				<div class="col-md-4 col-xs-12">
 					<div class="box-content card" style="padding: 10px; padding-left: 30px; padding-right: 40px; border-radius: 5px;">
-						<h5><i class="fa ico"><img src="images/rubygems.png"></i> <b style="font-size: 20px;">RubyGem</b></h5>
+						<h5><i class="fa ico"><img src="rubygems.png"></i> <b style="font-size: 20px;">RubyGem</b></h5>
 						<p style="font-size: 12px;">A standard format for distributing Ruby programs and libraries used for the Ruby programming language.</p>
 						<button type="button" class="btn btn-default btn-sm" style="border-radius: 4px;">Learn More</button><br><br>
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<div class="box-content card" style="padding: 10px; padding-left: 30px; padding-right: 40px; border-radius: 5px;">
-						<h5><i class="fa ico"><img src="images/npm.jpg"></i> <b style="font-size: 20px;">npm</b></h5>
+						<h5><i class="fa ico"><img src="npm.jpg"></i> <b style="font-size: 20px;">npm</b></h5>
 						<p style="font-size: 12px;">A package manager for JavaScript, included with Node.js. npm makes it easy for developers to share and reuse code.</p>
 						<button type="button" class="btn btn-default btn-sm" style="border-radius: 4px;">Learn More</button><br><br>
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<div class="box-content card" style="padding: 10px; padding-left: 30px; padding-right: 40px; border-radius: 5px;">
-						<h5><i class="fa ico"><img src="images/docker.png"></i> <b style="font-size: 20px;">Containers</b></h5>
+						<h5><i class="fa ico"><img src="docker.png"></i> <b style="font-size: 20px;">Containers</b></h5>
 						<p style="font-size: 12px;">A single place for your team to manage Docker images and decide who can see and access your images.</p>
 						<button type="button" class="btn btn-default btn-sm" style="border-radius: 4px;">Learn More</button><br><br>
 					</div>
